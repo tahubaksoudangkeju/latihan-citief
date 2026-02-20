@@ -1,8 +1,8 @@
-name: Domino Daydream
+name: Ga bisa baca
 # author: fathuy
 category: Reversing
 description: |
-  can u still read it?
+  idk
 
 type: dynamic
 state: hidden
@@ -13,7 +13,7 @@ minimum: 100
 
 flags:
   - type: static
-    content: PCCSYK{5h4r3_y0ur_kn0wl3wdg3!}
+    content: SYK{19920814}
 
 files:
   - dist/gabisabaca
