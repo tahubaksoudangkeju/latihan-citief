@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  cyb0x1:
+    build: .
+    container_name: InternProject
+    environment:
+      - FLAG=CYB0X1{int3rn_bu1lt_s3cur3_g4t3w4y_w1th_w1ld_c0rs_b4ckup_m1sconf1g_jwt_r3us3_pr0xy_h34der_l34k_mfa_byp4ss_n0nc3_c0ll1s10n_s3ss10n_sp00f_fl4g_dr0pp3d}
+    ports:
+      - "3000:3000"
+      - "3001:3001"
+    restart: unless-stopped

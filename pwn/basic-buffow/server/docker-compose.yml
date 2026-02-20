@@ -1,0 +1,21 @@
+version: '3'
+name: pwn-basic-buffow
+services:
+  basic-buffow:
+    image: cyb0x1/pwn-basic-buffow:latest
+    build: .
+    restart: on-failure
+    ports:
+      - "9997:9997"
+    # optional: add resource limit
+    deploy:
+      resources:
+        limits:
+          memory: 128M
+          cpus: '0.5'
+    # optional: security settings
+    security_opt:
+      - no-new-privileges:true
+    read_only: true
+    tmpfs:
+      - /tmp:noexec,nosuid,size=10m

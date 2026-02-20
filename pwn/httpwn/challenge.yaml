@@ -1,0 +1,19 @@
+name: "httpwn"
+author: "rui"
+description: |
+  turn your browser on and type this ip, and welcome to browser pwn.... wait its not v8 i swear
+
+  http://gzcli.{{.host}}/{{.slug}}
+
+type: "StaticAttachment"
+value: 1000
+
+flags:
+  - "TCF{turning_cgi_into_rce_nah_man_im_just_not_ready_for_v8}"
+
+
+provide: "./dist/dist.zip"
+
+dashboard:
+  type: compose
+  config: ./docker-compose.yml

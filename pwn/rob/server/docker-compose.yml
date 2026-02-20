@@ -1,0 +1,8 @@
+version: '3'
+name: pwn-robsmg
+services:
+  robsmg:
+    build: .
+    restart: on-failure
+    ports:
+      - "11002:11002"

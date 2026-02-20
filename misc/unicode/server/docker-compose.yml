@@ -1,0 +1,20 @@
+version: '3'
+name: misc-unicode
+services:
+  unicode:
+    build: .
+    restart: on-failure
+    ports:
+      - "9696:9696"
+    # Optional: Add resource limits for security
+    deploy:
+      resources:
+        limits:
+          memory: 64M
+          cpus: '0.3'
+    # Optional: Security settings
+    security_opt:
+      - no-new-privileges:true
+    # read_only: true  # Disabled for script execution
+    tmpfs:
+      - /tmp:noexec,nosuid,size=10m
