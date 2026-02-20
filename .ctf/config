@@ -3,17 +3,17 @@ url = http://116.193.190.121/
 access_token = ctfd_155fb8ce60ef2fdfd96e88c0dfabb8ce42aec56101195a6a0379a9e5f41e85ed
 
 [challenges]
-crypto/different-radios-same-frequency = crypto/different-radios-same-frequency
-crypto/xor = crypto/xor
-crypto/take-it-or-double-it = crypto/take-it-or-double-it
-crypto/not-python-i-swear = crypto/not-python-i-swear
-forensic/botol = forensic/botol
-pwn/basic-buffow = pwn/basic-buffow
-pwn/cek-var = pwn/cek-var
-pwn/cek-var-tapi-beda = pwn/cek-var-tapi-beda
-pwn/kenari = pwn/kenari
-pwn/ret2win = pwn/ret2win
-reversing/ga-bisa-baca = reversing/ga-bisa-baca
-reversing/guess-what = reversing/guess-what
-reversing/XOR-my-shadow = reversing/XOR-my-shadow
+challenges/crypto/different-radios-same-frequency = crypto/different-radios-same-frequency
+challenges/crypto/xor = crypto/xor
+challenges/crypto/take-it-or-double-it = crypto/take-it-or-double-it
+challenges/crypto/not-python-i-swear = crypto/not-python-i-swear
+challenges/forensic/botol = forensic/botol
+challenges/pwn/basic-buffow = pwn/basic-buffow
+challenges/pwn/cek-var = pwn/cek-var
+challenges/pwn/cek-var-tapi-beda = pwn/cek-var-tapi-beda
+challenges/pwn/kenari = pwn/kenari
+challenges/pwn/ret2win = pwn/ret2win
+challenges/reversing/ga-bisa-baca = reversing/ga-bisa-baca
+challenges/reversing/guess-what = reversing/guess-what
+challenges/reversing/XOR-my-shadow = reversing/XOR-my-shadow
 
