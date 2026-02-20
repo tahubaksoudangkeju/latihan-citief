@@ -1,8 +1,8 @@
-name: Mosquito
+name: Botol
 # author: fathuy
 category: Forensic
 description: |
-  idk
+  botol tupperware biasa sih ini
 
 type: dynamic
 state: hidden
@@ -13,7 +13,7 @@ minimum: 100
 
 flags:
   - type: static
-    content: PCCSYK{ju5t_brut3_f0rc3_1t_btw}
+    content: FLAG{w0w_y0u_f0und_th3_m3t4d4t4!}
 
 files:
-  - dist/chall.zip
+  - dist/botol.jpg

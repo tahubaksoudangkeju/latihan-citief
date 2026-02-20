@@ -1,8 +1,8 @@
-name: Mosquito
+name: guesswhat
 # author: fathuy
-category: Forensic
+category: Reversing
 description: |
-  idk
+  can u guess what?
 
 type: dynamic
 state: hidden
@@ -13,7 +13,7 @@ minimum: 100
 
 flags:
   - type: static
-    content: PCCSYK{ju5t_brut3_f0rc3_1t_btw}
+    content: SYK{19920814}
 
 files:
-  - dist/chall.zip
+  - dist/guesswhat

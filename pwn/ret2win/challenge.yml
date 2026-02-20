@@ -1,0 +1,21 @@
+name: ret2win
+# author: fathuy
+category: Pwn
+description: |
+  ret2win
+
+  `nc 116.193.190.121 9996`
+
+type: dynamic
+state: hidden
+
+initial: 1000
+decay: 5
+minimum: 100
+
+flags:
+  - type: static
+    content: FLAG{n0w_y0u_c4n_c0ntr0l_th3_RIP_Y34HHHHHHHHH!!}
+
+files:
+  - dist/ret2win

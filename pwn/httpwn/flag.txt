@@ -1,1 +1,1 @@
-turning_cgi_into_rce_nah_man_im_just_not_ready_for_v8
+FLAG{turning_cgi_into_rce_nah_man_im_just_not_ready_for_v8}

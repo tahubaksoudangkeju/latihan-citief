@@ -1,0 +1,26 @@
+name: Balls of Steel
+# author: fathuy
+category: Osint
+description: |
+  Terdapat sebuah video percakapan antara operator kapal perang (Rusia) dengan petugas penjaga pulau (Ukraina).<br>
+  Coba cari informasi mengenai **nama asli** (bukan versi inggrisnya) pulau tersebut beserta **koordinatnya**.<br>
+  Misal:
+  - Pulau Seruni
+  - Koordinat -5.8508058,110.5565372,3703 (ambil 2 digit setelah titik, jadi: -5.85,110.55)
+  - Maka flagnya: `FLAG{seruni,-5.85,110.55}`
+
+  *Catatan: flag tidak menggunakan spasi, tidak menggunakan huruf kapital, dan tidak perlu menggunakan kata **pulau** lagi
+
+type: dynamic
+state: hidden
+
+initial: 1000
+decay: 5
+minimum: 100
+
+flags:
+  - type: static
+    content: FLAG{zmiinyi,45.25,30.20}
+
+files:
+  - dist/war_footage.mp4

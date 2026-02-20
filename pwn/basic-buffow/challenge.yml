@@ -1,0 +1,21 @@
+name: Basic buffow
+# author: fathuy
+category: Pwn
+description: |
+  basic aja sih ini
+  
+  `nc 116.193.190.121 9997`
+
+type: dynamic
+state: hidden
+
+initial: 1000
+decay: 5
+minimum: 100
+
+flags:
+  - type: static
+    content: FLAG{4h_n1ce_u_kn0w_th3_b4s1c_0f_th1s_vuln!!}
+
+files:
+  - dist/basic_buffow

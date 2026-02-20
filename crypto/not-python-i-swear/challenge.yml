@@ -1,0 +1,19 @@
+name: Not Python, I Swear
+# author: fathuy
+category: Crypto
+description: |
+  I have homework and they told me to use Python, but I love C the most… so I mixed them (and maybe swapped some nibbles on the way)
+
+type: dynamic
+state: hidden
+
+initial: 1000
+decay: 5
+minimum: 100
+
+flags:
+  - type: static
+    content: CYB0X1{y34h_u_c4n_wr1t3_c_c0d3_1n_pyth0n_ctyp35_g0_brrr_m4ll0c_m3mm0v3_0p3n_wr1t3_cl0s3_str1d3_p3rm_n1bbl3_sw4p_lcg_t1ck_345y_r1ght}
+
+files:
+  - dist/chall.zip

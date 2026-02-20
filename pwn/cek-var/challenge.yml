@@ -1,0 +1,21 @@
+name: Cek Var
+# author: fathuy
+category: Pwn
+description: |
+  coba cek, disitu ada apa
+
+  `nc 116.193.190.121 9999`
+
+type: dynamic
+state: hidden
+
+initial: 1000
+decay: 5
+minimum: 100
+
+flags:
+  - type: static
+    content: FLAG{0hhh_y0u_c4n_0v3rwr1t3_th1s_????????????!!}
+
+files:
+  - dist/cek_var

@@ -1,0 +1,21 @@
+name: Stay Calm, It's Just RSA, Right?
+# author: fathuy
+category: Crypto
+description: |
+  "They said it’s just numbers and math… so why does it feel like a trap?"
+
+  ![rsa meme](https://lh4.googleusercontent.com/proxy/TifgkwJyFzIKsmDb1WL3yfgMNrE6ejWKkkQeFN5GuNmhtZDOwgmFn_xJc5EVy4NT1c_sE16IUZ8bsXLtkcz8vFmu0ibFS4Z2JSKoIbYzmDsNOcjdC4NZGHtkFIj2By6safxmQWowP2fic6gV6lYgtDbeHeMS)
+
+type: dynamic
+state: hidden
+
+initial: 1000
+decay: 5
+minimum: 100
+
+flags:
+  - type: static
+    content: CYB0X1{i_th1nk_r5a_t00_34sy_w1th_41_unl3ss_y0u_r34lly_kn0w_c0pp3rsm1th_sm4ll_r00ts_4nd_b1v4r1at3_l4tt1c3s_st4y_c4lm_br34th3_c0d3_r3p34t_y3ahhhhhhhhhh}
+
+files:
+  - dist/chall.zip

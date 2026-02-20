@@ -1,19 +1,21 @@
-name: "httpwn"
-author: "rui"
+name: httpwn
+# author: fathuy
+category: Pwn
 description: |
-  turn your browser on and type this ip, and welcome to browser pwn.... wait its not v8 i swear
+  Computer Generated Image
 
-  http://gzcli.{{.host}}/{{.slug}}
+  http://116.193.190.121:16000/
 
-type: "StaticAttachment"
-value: 1000
+type: dynamic
+state: hidden
+
+initial: 1000
+decay: 5
+minimum: 100
 
 flags:
-  - "TCF{turning_cgi_into_rce_nah_man_im_just_not_ready_for_v8}"
+  - type: static
+    content: FLAG{turning_cgi_into_rce_nah_man_im_just_not_ready_for_v8}
 
-
-provide: "./dist/dist.zip"
-
-dashboard:
-  type: compose
-  config: ./docker-compose.yml
+files:
+  - dist/chall.zip

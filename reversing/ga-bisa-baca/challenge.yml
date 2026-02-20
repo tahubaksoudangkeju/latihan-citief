@@ -1,8 +1,8 @@
-name: Mosquito
+name: Domino Daydream
 # author: fathuy
-category: Forensic
+category: Reversing
 description: |
-  idk
+  can u still read it?
 
 type: dynamic
 state: hidden
@@ -13,7 +13,7 @@ minimum: 100
 
 flags:
   - type: static
-    content: PCCSYK{ju5t_brut3_f0rc3_1t_btw}
+    content: PCCSYK{5h4r3_y0ur_kn0wl3wdg3!}
 
 files:
-  - dist/chall.zip
+  - dist/gabisabaca

@@ -1,0 +1,19 @@
+name: Different Radios, Same Frequency
+# author: fathuy
+category: Crypto
+description: |
+  "They say the programs are different, but why does the signal sound the same? Tune in carefully, block by block" 
+
+type: dynamic
+state: hidden
+
+initial: 1000
+decay: 5
+minimum: 100
+
+flags:
+  - type: static
+    content: CYB0X1{n0nc3_8b_ctr0_5_r3us3d_acr0ss_c1_c2_c3_r3c0v3r_k3ystr34m_fr0m_c1_then_unshuffl3_c2_c3_by_idx_s33ds_1337_4242_and_r3ad_dr0p1_dr0p2_flag_m3ss4g3}
+
+files:
+  - dist/chall.zip

@@ -1,6 +1,6 @@
 import random
 
-flag = "PCCSYK{ju5t_brut3_f0rc3_1t_btw}"
+flag = "PCCSYK{fake_flag}"
 
 def xor(data, key):
     # return hasil xor data dengan key

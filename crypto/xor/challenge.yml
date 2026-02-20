@@ -1,8 +1,8 @@
-name: Mosquito
+name: XOR-ed Out
 # author: fathuy
-category: Forensic
+category: Crypto
 description: |
-  idk
+  just a simple xor
 
 type: dynamic
 state: hidden

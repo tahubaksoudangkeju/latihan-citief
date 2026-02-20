@@ -1,0 +1,19 @@
+name: Take It or Double It
+# author: fathuy
+category: Crypto
+description: |
+  They said leaking just a few bits won't hurt… but doubling down on those least significant bits feels dangerous
+
+type: dynamic
+state: hidden
+
+initial: 1000
+decay: 5
+minimum: 100
+
+flags:
+  - type: static
+    content: CYB0X1{kn0wn_lsbs_m4k3_r5a_f33l_l1k3_sl0t_m4ch1n3s_t1lt3d_but_w1th_c0pp3rsm1th_y0u_c4sh_0ut_b1g_unl3ss_y0u_f4ll_f0r_th3_b41t_t4k3_1t_0r_d0ubl3_1t}
+
+files:
+  - dist/chall.zip

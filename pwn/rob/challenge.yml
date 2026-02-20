@@ -1,8 +1,9 @@
-name: Mosquito
+name: rob
 # author: fathuy
-category: Forensic
+category: Pwn
 description: |
-  idk
+
+  `nc 116.193.190.121 11002`
 
 type: dynamic
 state: hidden
@@ -13,7 +14,7 @@ minimum: 100
 
 flags:
   - type: static
-    content: PCCSYK{ju5t_brut3_f0rc3_1t_btw}
+    content: FLAG{tembalang_realtif_aman_banjir_yeayyy!!!}
 
 files:
-  - dist/chall.zip
+  - dist/robsmg

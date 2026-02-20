@@ -1,8 +1,10 @@
-name: Mosquito
+name: kenari
 # author: fathuy
-category: Forensic
+category: Pwn
 description: |
-  idk
+  satu kenari bisa bikin exploitmu ga berguna
+
+  `nc 116.193.190.121 11001`
 
 type: dynamic
 state: hidden
@@ -13,7 +15,7 @@ minimum: 100
 
 flags:
   - type: static
-    content: PCCSYK{ju5t_brut3_f0rc3_1t_btw}
+    content: FLAG{m4nuk_kenari_cit_cit_cuiiiiittt_!!}
 
 files:
   - dist/chall.zip
